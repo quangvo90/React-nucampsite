@@ -1,4 +1,4 @@
 import { PARTNERS } from '../../app/shared/PARTNERS'
 
-export const selectAllPartners = (state) => PARTNERS;
-export const selectFeaturedPartner = (state) => PARTNERS.find((partner) => partner.featured);
+export const selectAllPartners = () => PARTNERS;
+export const selectFeaturedPartner = () => PARTNERS.find((partner) => partner.featured);
